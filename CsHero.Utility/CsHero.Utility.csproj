@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9C0CF84F-D80B-44DB-A640-F0AB6F117148}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Gs.Utility</RootNamespace>
-    <AssemblyName>Gs.Utility</AssemblyName>
+    <RootNamespace>CsHero.Utility</RootNamespace>
+    <AssemblyName>CsHero.Utility</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

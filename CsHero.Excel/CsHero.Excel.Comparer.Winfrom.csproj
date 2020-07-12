@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AC4767FC-3C0B-46BF-9EB6-C5020215D572}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Gs.Request.Comparer</RootNamespace>
-    <AssemblyName>Excel Request Comparer</AssemblyName>
+    <RootNamespace>CsHero.Excel.Comparer</RootNamespace>
+    <AssemblyName>Excel File Comparer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -136,12 +136,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CsHero.Utility\CsHero.Utility.csproj">
-      <Project>{9c0cf84f-d80b-44db-a640-f0ab6f117148}</Project>
-      <Name>CsHero.Utility</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
@@ -150,6 +144,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CsHero.Utility\CsHero.Utility.csproj">
+      <Project>{9c0cf84f-d80b-44db-a640-f0ab6f117148}</Project>
+      <Name>CsHero.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

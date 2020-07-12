@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsHero.Utility", "CsHero.Utility\CsHero.Utility.csproj", "{9C0CF84F-D80B-44DB-A640-F0AB6F117148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsHero.Excel.Comparer.Winfrom", "CsHero.Excel\CsHero.Excel.Comparer.Winfrom.csproj", "{AC4767FC-3C0B-46BF-9EB6-C5020215D572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0CF84F-D80B-44DB-A640-F0AB6F117148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0CF84F-D80B-44DB-A640-F0AB6F117148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0CF84F-D80B-44DB-A640-F0AB6F117148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0CF84F-D80B-44DB-A640-F0AB6F117148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4767FC-3C0B-46BF-9EB6-C5020215D572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4767FC-3C0B-46BF-9EB6-C5020215D572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4767FC-3C0B-46BF-9EB6-C5020215D572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4767FC-3C0B-46BF-9EB6-C5020215D572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D828438D-E97E-496C-8672-587349B0717B}
+	EndGlobalSection
+EndGlobal
